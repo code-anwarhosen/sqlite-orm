@@ -1,2 +1,9 @@
-__pycache__
 demo.db
+
+venv/
+dist/
+
+*.egg-info/
+
+__pycache__
+tests.py

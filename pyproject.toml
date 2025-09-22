@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "sqlite-orm-simple"
+version = "0.1.0"
+description = "sqlite_orm is a dependency less orm for sqlite database built with and for python"
+readme = "readme.md"
+authors = [
+  { name="Anwar Hosen", email="anwarhossene@gmail.com" }
+]
+license = { text = "MIT" }
+requires-python = ">=3.8"
+keywords = ["sqlite_orm", "sqlite", "orm", "sqlite3", "sqlite3 orm"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent"
+]
+
+[project.urls]
+Homepage = "https://github.com/code-anwarhosen/sqlite-orm"
+Issues = "https://github.com/code-anwarhosen/sqlite-orm/issues"
